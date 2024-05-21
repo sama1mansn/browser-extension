@@ -27,7 +27,7 @@ module.exports = {
       const config = craGenerateDevServerConfig(proxy, allowedHost)
 
       // Enable writing files to the destination so we can easily reload the extension once build is done
-      config.writeToDisk = true
+      config.writeToDisk = false
 
       return config
     }
